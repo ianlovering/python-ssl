@@ -5,4 +5,4 @@ To use download a binary distribution (as it contains the binary module statical
 
 The modules will be installed to /usr/local/lib/python2.7/dist-packages/ilssl.
 
-To use do 'import ilssl.ssl as ssl' and use the same way as the built in python ssl module.
+Do 'import ilssl.ssl as ssl' and use the same way as the built in python ssl module.
