@@ -94,7 +94,7 @@ import os
 from collections import namedtuple
 from contextlib import closing
 
-import _ssl             # if we can't import it, let the error propagate
+import ilssl._ssl as _ssl             # if we can't import it, let the error propagate
 
 from _ssl import OPENSSL_VERSION_NUMBER, OPENSSL_VERSION_INFO, OPENSSL_VERSION
 from _ssl import _SSLContext
